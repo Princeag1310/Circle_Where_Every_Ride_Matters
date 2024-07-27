@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/home"
+        android:title="@string/home"
+        android:icon="@drawable/home"
+        />
+    <item android:id="@+id/car"
+        android:title="@string/car"
+        android:icon="@drawable/car"
+        />
+    <item android:id="@+id/bike"
+        android:title="@string/bike"
+        android:icon="@drawable/motorbike"
+        />
+    <item android:id="@+id/profile"
+        android:title="@string/profile"
+        android:icon="@drawable/profile_icon"
+        />
+
+
+</menu>

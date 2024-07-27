@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".insurancePolicy">
+
+    <TextView
+        android:id="@+id/textViewinsurance"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:text="Insurance Policy"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="32sp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/insurancepolicy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:scrollbars="vertical"
+        android:padding="6dp"
+        android:layout_marginBottom="10dp"
+        android:text="1. Coverage Overview:\n
+   - This insurance policy covers all vehicles registered on the cab booking and rentals app platform against damages, accidents, theft, and third-party liabilities incurred during the course of their operations.\n\n
+2. Insured Parties:\n
+   - The policy extends coverage to the cab booking and rentals app company, its drivers, and the passengers utilizing the app's services.\n\n
+3. Coverage Details:\n
+   - Vehicle Damage: In the event of any damage to the insured vehicle due to accidents or other covered perils, the policy provides coverage for repair or replacement costs.\n
+   - Third-Party Liability: The policy offers protection against claims made by third parties for bodily injury or property damage caused by the insured vehicles.\n
+   - Comprehensive Coverage: Coverage includes protection against theft, vandalism, fire, and other non-collision related incidents.\n
+   - Passenger Liability: Passengers using the app's services are covered for bodily injury or property damage they may incur during their journey.\n
+   - Legal Expenses: The policy covers legal expenses incurred in defending against claims or lawsuits arising from covered incidents.\n\n
+
+4. Exclusions:\n
+   - The policy does not cover intentional acts of negligence or illegal activities.\n
+   - Vehicles used for purposes other than those authorized by the cab booking and rentals app are not covered.\n
+   - Wear and tear, mechanical breakdowns, and pre-existing damages are excluded from coverage.\n
+   - Damage or losses resulting from driver negligence, such as driving under the influence of alcohol or drugs, are not covered.\n\n
+
+5. Policy Limits and Deductibles:\n
+   - Coverage limits and deductibles are specified in the insurance agreement and may vary based on the type of coverage and the insured vehicle's specifications.\n\n
+
+6. Claims Process:\m
+   - In the event of an incident, insured parties must promptly report the claim to the insurance provider and provide all necessary documentation and evidence.\m
+   - The insurance company will assess the claim and process it in accordance with the terms and conditions of the policy.\n\n
+
+7. Premiums and Renewals:\n
+   - Premiums are determined based on factors such as the number of vehicles insured, their usage, and the claims history of the insured parties.\n
+   - The policy is renewable annually, subject to the payment of premiums and the insurer's underwriting criteria.\n\n
+
+8. Disclaimer:\n
+   - This insurance policy is a legal contract between the insured parties and the insurance company. It is important to review the policy terms and conditions carefully to understand the extent of coverage and any limitations or exclusions.
+\n\n"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

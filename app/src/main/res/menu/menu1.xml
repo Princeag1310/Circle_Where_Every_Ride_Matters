@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/history"
+        android:title="@string/history"
+        android:icon="@drawable/history"
+        />
+    <item
+        android:id="@+id/payments"
+        android:title="@string/payments"
+        android:icon="@drawable/payments"
+        />
+    <item
+        android:id="@+id/insurance"
+        android:title="@string/insurance"
+        android:icon="@drawable/insurance"
+        />
+    <item
+        android:id="@+id/termsandconditions"
+        android:title="@string/terms_amp_conditions"
+        android:icon="@drawable/termsconditions"
+        />
+    <item
+        android:id="@+id/about"
+        android:title="@string/about"
+        android:icon="@drawable/aboutus"
+        />
+
+</menu>

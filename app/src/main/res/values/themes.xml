@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Circle_Application" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">#5000FF</item>
+        <item name="colorPrimaryVariant">#264DDD</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorSecondary">#FF0000</item>
+        <item name="colorSecondaryVariant">#EC1D1D</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <item name="android:statusBarColor" tools:targetApi="1">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="Theme.Circle_Application" parent="Base.Theme.Circle_Application" />
+    <!-- Customize your light theme here. -->
+    <style name="colorPrimary">#5000FF</style>
+    <style name="colorPrimaryVariant">#264DDD</style>
+    <style name="colorOnPrimary">@style/white</style>
+    <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    <style name="colorSecondary">#FF0000</style>
+    <style name="colorSecondaryVariant">#EC1D1D</style>
+    <style name="colorOnSecondary">@style/black</style>
+
+    <style name="statusBarColor" tools:targetApi="1">?attr/colorPrimaryVariant</style>
+</resources>

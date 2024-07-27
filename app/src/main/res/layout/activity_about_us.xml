@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".aboutUs">
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:text="About Us"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="32sp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/aboutus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:scrollbars="vertical"
+        android:padding="6dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/welcome_to_circle_your_ultimate_companion_for_safe_reliable_and_comfortable_journeys_at_circle_we_understand_that_traveling_in_a_new_city_especially_when_it_comes_to_finding_transportation_that_is_both_affordable_and_trustworthy_that_s_why_we_ve_designed_our_app_to_redefine_your_travel_experience_ensuring_that_every_journey_is_not_only_convenient_but_also_worry_free_n_n_with_circle_you_can_say_goodbye_to_the_hassle_of_haggling_with_auto_rickshaw_drivers_or_worrying_about_the_safety_of_your_commute_our_intuitive_platform_connects_you_with_the_nearest_cab_or_bike_allowing_you_to_track_your_ride_in_real_time_using_gps_technology_whether_you_re_navigating_through_bustling_city_streets_or_exploring_unfamiliar_neighbourhoods_rest_assured_that_circle_has_your_back_every_step_of_the_way_n_n_safety_is_our_top_priority_which_is_why_we_ve_implemented_stringent_measures_to_ensure_that_all_our_drivers_are_thoroughly_vetted_and_trained_from_background_checks_to_vehicle_inspections_we_leave_no_stone_unturned_in_guaranteeing_your_peace_of_mind_additionally_our_in_app_rating_system_allows_you_to_provide_feedback_on_your_journey_empowering_us_to_continually_improve_our_services_and_maintain_the_highest_standards_of_safety_and_quality_n_n_but_that_s_not_all_at_circle_we_believe_in_making_travel_accessible_to_everyone_that_s_why_we_re_committed_to_offering_competitive_rates_that_are_transparent_and_fair_no_more_surprise_charges_or_inflated_prices_with_circle_you_ll_always_know_exactly_what_you_re_paying_for_ensuring_a_stress_free_experience_from_start_to_finish_n_n_as_part_of_our_commitment_to_customer_satisfaction_we_also_offer_a_range_of_exciting_offers_and_rewards_whether_it_s_discounts_on_large_journeys_or_exclusive_benefits_for_frequent_travelers_we_re_always_looking_for_ways_to_reward_our_loyal_customers_and_enhance_their_overall_experience_with_circle_n_n_but_our_journey_doesn_t_stop_here_we_re_constantly_innovating_and_exploring_new_ways_to_improve_our_app_and_make_travel_even_more_convenient_for_you_from_introducing_new_features_to_expanding_our_service_offerings_we_re_dedicated_to_staying_ahead_of_the_curve_and_exceeding_your_expectations_every_step_of_the_way_n_n_so_why_wait_join_the_circle_community_today_and_experience_travel_like_never_before_safe_reliable_and_always_on_your_side_that_s_the_circle_promise_n_n"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
